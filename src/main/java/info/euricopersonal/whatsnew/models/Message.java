@@ -1,5 +1,6 @@
 package info.euricopersonal.whatsnew.models;
 
+import info.euricopersonal.whatsnew.enums.StatusMessage;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,4 +29,7 @@ public class Message {
 
     @OneToOne
     private Content content;
+
+    @Enumerated(EnumType.STRING)
+    private StatusMessage status;
 }

@@ -14,4 +14,5 @@ public class Content {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
+    private String text;
 }
