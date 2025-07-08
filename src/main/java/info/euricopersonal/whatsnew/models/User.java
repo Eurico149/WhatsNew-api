@@ -3,6 +3,7 @@ package info.euricopersonal.whatsnew.models;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.util.*;
 
 
@@ -11,6 +12,7 @@ import java.util.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "users")
 public class User {
 
     @Id
@@ -20,10 +22,13 @@ public class User {
     @Column(unique = true, nullable = false)
     private String username;
 
+    @Column(nullable = false)
+    private String password;
+
     @Column(unique = true, nullable = false)
     private String email;
 
-    private Date birthday;
+    private LocalDate birthday;
 
     private String urlProfilePic;
 
