@@ -16,5 +16,6 @@ This repository contains **only the backend (API)** of the project. You can acce
 
 ## System Modeling
 1. [Class Diagram](https://lucid.app/lucidchart/bb2143ae-c24f-4695-b44a-74c74098a523/edit?viewport_loc=262%2C-362%2C3326%2C1536%2C0_0&invitationId=inv_2eb2d174-bef0-4ac6-a027-b4bfc35f28fa)
-2. [Use Case Diagram](https://lucid.app/lucidchart/da301eaa-3f1d-42b4-a8a8-76c7b93102b6/edit?viewport_loc=-1477%2C-308%2C2217%2C1024%2C0_0&invitationId=inv_f2a280c3-ebb3-40d8-a8fb-44f0d204af3a)
-3. [Specifications]()
+2. [Use Case Diagram](https://lucid.app/lucidchart/3c117134-bfbe-4db0-9748-d3c612b604b8/edit?viewport_loc=-2468%2C-597%2C4896%2C2376%2C0_0&invitationId=inv_0472fa3c-8a6b-4dd9-86d9-9c62b329117e)
+3. [Deploy Flow](https://lucid.app/lucidchart/8d3a9ba5-ad1e-4297-a3d1-75160811717f/edit?viewport_loc=290%2C-275%2C2992%2C1452%2C0_0&invitationId=inv_074563d6-ad22-4971-9b18-9e8c03f860ff)
+4. [General Documentacion](https://docs.google.com/document/d/1yBxkUxYDftyB7P_ZleMe60TIC4b_lh8Q7s0H-XpS7gI/edit?usp=sharing)
