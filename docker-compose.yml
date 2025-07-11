@@ -1,15 +1,22 @@
 services:
+
   postgres:
     image: postgres:latest
-    container_name: postgres_WhatsNew
+    restart: no
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-whatsnew}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-123456}
       POSTGRES_DB: whatsnew
-    ports:
-      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: no
+    depends_on:
+      - postgres
 
 volumes:
   postgres_data:
